@@ -1,0 +1,130 @@
+body{
+    font-family: fantasy;
+    margin: 0;
+    font-size: 6vh;
+    background-color: #1f001e;
+}
+
+/*:::::navbar:::::*/
+
+header{
+    display: flex;
+    min-height: 10vh;
+    background-color: #6C0068;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 10vh
+}
+a{
+    text-decoration: none;
+    padding: 8vh;
+    color: white;
+    
+}
+
+nav a {
+    padding: 8vh;
+    font-weight: 280;
+    margin: 1vh
+}
+
+nav a:hover{
+    color: #ff005d;
+}
+
+/*:::::sección 1:::::*/
+
+.bio{
+    padding: 0;
+    background-image: url('cap1.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#bio .banner:before{
+    content: '';
+    background-color: rgba(95, 81, 81, 0.6);
+    position: absolute;
+    width: 204vh;
+    height: 100vh;
+}
+
+.redes{
+    height: 50%;
+    max-height: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes a{
+    font-size: 27vh;
+    max-width: 27vh;
+    transition: all ease 300ms;
+}
+
+.redes a:hover{
+    color:#ff005d;
+}
+
+.redes a:hover{
+    transform: scale(1.2);
+}
+
+
+
+/*:::::sección 2:::::*/
+
+
+
+/*:::::pie de página:::::*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #27006B;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 200vh;
+    height: 50vh;
+    margin: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+
+}
+
+
+.box1 img{
+    width: 40vh;
+    height: 40vh;
+}
+
+.box2 h2{
+    color: #ffffff;
+}
+
+.box2 p{
+    color: #ffffff;
+}
+
+.grupo2 {
+    width: 100%;
+    height: 5vh;
+}
+
+.grupo2 small{
+    color: #ffffff;
+    font-size: 2vh;
+}
